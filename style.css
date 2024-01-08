@@ -1,11 +1,26 @@
 body {
-  background-color: gray;
+    background-color: gray;
 }
 
 .main-container {
-  background-color: rgb(20, 20, 20);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding-top: 20px;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.social-media-icons-container {
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    width: fit-content;
+    gap: 15px;
+    align-self: flex-end;
+    padding: 0px 15px;
+}
+
+.social-media-icons-container img {
+    height: 20px;
+    width: auto;
+    opacity: 0.5;
 }
