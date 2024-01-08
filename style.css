@@ -227,13 +227,8 @@ progress {
         justify-content: space-between;
     }
 
-    .section-2 {
+    .section-2-container {
         padding-top: 70px;
-    }
-
-    .section-3 {
-        align-self: flex-end;
-        padding-right: 50px;
     }
 
     .section-2-and-section-3-container {
