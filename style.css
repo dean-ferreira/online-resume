@@ -1,0 +1,11 @@
+body {
+  background-color: gray;
+}
+
+.main-container {
+  background-color: rgb(20, 20, 20);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 20px;
+}
