@@ -2,6 +2,18 @@ body {
     background-color: gray;
 }
 
+p {
+    color: rgb(148, 146, 146);
+}
+
+.blue-text {
+    color: rgb(65, 165, 216)
+}
+
+.white-text {
+    color: white;
+}
+
 .main-container {
     background-color: rgb(20, 20, 20);
     display: flex;
@@ -23,4 +35,57 @@ body {
     height: 20px;
     width: auto;
     opacity: 0.5;
+}
+
+.section-1-container {
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(132, 124, 123);
+}
+
+.box-1 {
+    display: flex;
+    width: fit-content;
+    flex-direction: row-reverse;
+    gap: 100px;
+}
+
+#profile-picture {
+    height: 100px;
+}
+
+.name-and-title {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding-left: 20px;
+}
+
+.name-and-title>* {
+    margin: 0px;
+}
+
+.box-2 {
+    display: flex;
+    gap: 10px;
+    width: fit-content;
+    justify-content: center;
+}
+
+.personal-information {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 20px;
+}
+
+.personal-information>p {
+    margin: 0;
+}
+
+.box-3 {
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
